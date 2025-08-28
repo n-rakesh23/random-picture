@@ -2,7 +2,7 @@ const  btnEl =document.querySelector(".btn");
 const bodyEl=document.querySelector("body");
 
 btnEl.addEventListener("click",(e)=>{
-        let i =Math.floor(Math.random()*100)+1;
+        let i =Math.floor(Math.random()*1000)+6;
 
             const divEl=document.createElement("div");
             divEl.classList.add("image-container");
@@ -32,4 +32,5 @@ btnEl.addEventListener("click",(e)=>{
 
 
 });
+
 
